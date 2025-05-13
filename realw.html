@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Real Madrid Jerseys - Jersey Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<style>
+  /* Real Madrid Color Overrides */
+.club-legacy .legacy-content h2,
+.club-legacy .legends-section h3,
+.club-legacy .legend-info h4,
+.club-legacy .more-legends h5 {
+  color: #0a2240; /* Real Madrid navy blue */
+}
+.club-legacy .trophy i {
+  color: #FFD700; /* Gold for trophy icons */
+}
+.club-hero {
+  background: linear-gradient(rgba(10, 34, 64, 0.7), rgba(0,0,0,0.7));
+}
+.club-legacy .trophy,
+.club-legacy .legend-years {
+  background: #0a2240; /* Real Madrid navy blue */
+}
+
+.club-legacy .legends-section h3::after {
+  background: #0a2240; /* Real Madrid navy blue */
+}
+
+.club-legacy .legend-stats li::before {
+  color: #0a2240; /* Real Madrid navy blue */
+}
+
+.club-legacy .legend-badges span {
+  background: #ffffff; /* Pure white */
+  color: #0a2240; /* Navy blue text */
+  border: 1px solid #0a2240; /* Navy blue border */
+}
+</style>
+<body>
+  <header class="nav">
+    <a href="index.html"><div class="logo">JERSEY SHOP</div></a>  
+    <nav class="club-nav">
+      <a href="realw.html" title="Real Madrid"><img src="real.png" alt="Real Madrid" /></a>
+      <a href="barcaw.html" title="FC Barcelona"><img src="barca.png" alt="FC Barcelona" /></a>
+</nav>
+    <div class="nav-actions">
+      <a href="products.html" class="nav-link">All Jerseys</a>
+      <a href="index.html" class="nav-link">Home</a>
+    </div>
+  </header>
+
+<section class="club-hero" style="background: linear-gradient(rgba(67, 47, 182, 0.5), rgba(0,0,0,0.5)), url('{realbg.png}');">
+    <div class="club-hero-content">
+      <img src="real.png" alt="Real Madrid Logo" class="club-hero-logo">
+      <h1>Real Madrid 2024/25 Jerseys</h1>
+      <p>Official authentic jerseys direct from the club</p>
+    </div>
+  </section>
+
+  <section class="club-products">
+    <div class="product-row">
+      <div class="product-detail">
+        <img src="realhome.png" alt="Real Madrid Home Jersey">
+        <div class="product-info">
+          <h2>Home Jersey</h2>
+          <div class="price">$89.99</div>
+          <p>Official Real Madrid home jersey for the 2024/25 season. Made with high-quality materials for optimal performance.</p>
+          <div class="size-selector">
+            <label for="home-size">Size:</label>
+            <select id="home-size">
+              <option value="S">Small</option>
+              <option value="M">Medium</option>
+              <option value="L">Large</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-row">
+      <div class="product-detail">
+        <img src="realaway.png" alt="Real Madrid Away Jersey">
+        <div class="product-info">
+          <h2>Away Jersey</h2>
+          <div class="price">$89.99</div>
+          <p>Official Real Madrid away jersey for the 2024/25 season. Made with high-quality materials for optimal performance.</p>
+          <div class="size-selector">
+            <label for="away-size">Size:</label>
+            <select id="away-size">
+              <option value="S">Small</option>
+              <option value="M">Medium</option>
+              <option value="L">Large</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="club-legacy">
+  <div class="legacy-content">
+    <h2>The Legacy of Real Madrid</h2>
+    <p class="subtitle">A Club Forged in Greatness</p>
+    
+    <div class="legacy-grid">
+      <div class="legacy-text">
+        <p>Real Madrid Club de Fútbol, founded in 1902, stands as the most successful club in European football history. With a record 15 UEFA Champions League titles and 35 La Liga championships, Los Blancos have become synonymous with excellence.</p>
+        
+        <p>The Santiago Bernabéu Stadium has been home to some of football's most iconic moments and legendary players who defined generations. Real Madrid's famous all-white kit has been worn by the game's greatest talents, creating an unmatched legacy.</p>
+        
+        <div class="trophy-case">
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>
+            <span>15x Champions League</span>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>
+            <span>35x La Liga</span>
+          </div>
+          <div class="trophy">
+            <i class="fas fa-trophy"></i>
+            <span>5x Club World Cup</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="legacy-image">
+        <img src="realbg.png" alt="Real Madrid Legends">
+      </div>
+    </div>
+  </div>
+  
+  <div class="legends-section">
+    <h3>Galácticos Who Defined an Era</h3>
+    
+    <div class="legend-card">
+      <div class="legend-image">
+        <img src="ron.jpg" alt="Cristiano Ronaldo">
+      </div>
+      <div class="legend-info">
+        <h4>Cristiano Ronaldo</h4>
+        <span class="legend-years">2009-2018</span>
+        <ul class="legend-stats">
+          <li><strong>450 goals</strong> in 438 appearances</li>
+          <li>5x Champions League winner</li>
+          <li>2x La Liga champion</li>
+          <li>5x Ballon d'Or with Real Madrid</li>
+        </ul>
+        <p>The club's all-time top scorer, CR7 redefined greatness during his nine seasons in Madrid. His iconic #7 jersey remains the most popular in club history.</p>
+      </div>
+    </div>
+    
+    <div class="legend-card">
+      <div class="legend-image">
+        <img src="ziza.png" alt="Zinedine Zidane">
+      </div>
+      <div class="legend-info">
+        <h4>Zinedine Zidane</h4>
+        <span class="legend-years">2001-2006 (Player), 2016-2021 (Manager)</span>
+        <ul class="legend-stats">
+          <li>Scored legendary UCL final volley in 2002</li>
+          <li>3x UCL winner as manager</li>
+          <li>2x La Liga winner as manager</li>
+        </ul>
+        <p>The French maestro delivered some of the most magical moments in club history, both as player and manager.</p>
+      </div>
+    </div>
+    
+    <div class="more-legends">
+      <h5>Other Madrid Legends:</h5>
+      <div class="legend-badges">
+        <span>Alfredo Di Stéfano</span>
+        <span>Raúl González</span>
+        <span>Ferenc Puskás</span>
+        <span>Sergio Ramos</span>
+        <span>Iker Casillas</span>
+        <span>Roberto Carlos</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>JERSEY SHOP</h4>
+        <p>Your destination for authentic football jerseys from top clubs around the world.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">All Jerseys</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Sale</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Size Guide</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Jersey Shop. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer> 
+</body>
+</html>

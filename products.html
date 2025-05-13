@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Jerseys - Jersey Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="index.html"><div class="logo">JERSEY SHOP</div></a>  
+    <nav class="club-nav">
+      <a href="realw.html" title="Real Madrid"><img src="real.png" alt="Real Madrid" /></a>
+      <a href="barcaw.html" title="FC Barcelona"><img src="barca.png" alt="FC Barcelona" /></a>
+    </nav>
+    <div class="nav-actions">
+        <a href="products.html" class="nav-link active">All Jerseys</a>
+        <a href="index.html" class="nav-link">Home</a>
+    </div>
+  </header>
+
+  <section class="all-products">
+    <div class="product-category">
+      <h2 class="category-title">Real Madrid</h2>
+      <div class="products-grid">
+        <a href="realw.html" class="product-link">
+          <div class="product-item" data-club="real" data-type="home">
+          <img src="realhome.png" alt="Real Madrid Home Jersey">
+          <h3>Real Madrid Home Jersey 2024/25</h3>
+          <div class="price">$89.99</div>
+          <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </a>
+
+        <a href="realw.html" class="product-link">
+          <div class="product-item" data-club="real" data-type="away">
+          <img src="realaway.png" alt="Real Madrid Away Jersey">
+          <h3>Real Madrid Away Jersey 2024/25</h3>
+          <div class="price">$89.99</div>
+          <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </a>
+      </div>
+    </div>
+     <div class="product-category">
+      <h2 class="category-title">Barcelona</h2>
+      <div class="products-grid">
+        <a href="barcaw.html" class="product-link">
+        <div class="product-item" data-club="barca" data-type="home">
+          <img src="barcahome.png" alt="Barcelona Home Jersey">
+          <h3>Barcelona Home Jersey 2024/25</h3>
+          <div class="price">$84.99</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        </a>
+        <a href="barcaw.html" class="product-link">
+        <div class="product-item" data-club="barca" data-type="away">
+          <img src="barcaaway.png" alt="Barcelona Away Jersey">
+          <h3>Barcelona Away Jersey 2024/25</h3>
+          <div class="price">$84.99</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>JERSEY SHOP</h4>
+        <p>Your destination for authentic football jerseys from top clubs around the world.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">All Jerseys</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Sale</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Size Guide</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Jersey Shop. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>   
+
+  <script src="products.js"></script>
+</body>
+</html>
